@@ -114,7 +114,7 @@ class ExampleCodeDirective(Directive):
 
 def add_assets(app):
     app.add_css_file(CSS_FILE) # CJC: updated 
-    app.add_javascript(JS_FILE)
+    app.add_js_file(JS_FILE) # CJC: updated 
 
 def copy_assets(app, exception):
     if app.builder.name != 'html' or exception:
