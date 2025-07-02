@@ -113,7 +113,7 @@ class ExampleCodeDirective(Directive):
 
 
 def add_assets(app):
-    app.add_stylesheet(CSS_FILE)
+    app.add_css_file(CSS_FILE) # CJC: updated 
     app.add_javascript(JS_FILE)
 
 def copy_assets(app, exception):
